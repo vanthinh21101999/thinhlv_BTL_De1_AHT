@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeVanThinh-De1-AHT</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="sourcecode/css/styles.css" />
+    <link rel="stylesheet/less" href="sourcecode/less/styles.less" />
+    <link rel="stylesheet/less" href="sourcecode/less/rm-attr.less">
+  
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- Slick css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+   
+    <script src="/resources/js/less.js"></script>
+    <!--responsive-->
+    <link rel="stylesheet" href="./resources/css/responsive.css">
+
+</head>
+
+<body>
+    <!-- Create Header-top -->
+    <div class="header">
+        <div class="header-top d-flex align-items-center">
+            <div class="header-top-left me-auto">
+                <i class="far fa-bookmark"></i> Welcome to Franco - an e-Commerce PSD Template!
+            </div>
+            <div class="header-top-right">
+                <ul>
+                    <li><i class="fas fa-cog"></i><a href="#">Shop Setting</a></li>
+                    <li><i class="fas fa-lock"></i><a href="#">Member Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Close Header-top -->
+
+    <!-- Main menu -->
+    <div class="menu">
+        <div class="menu-pc">
+            <div class="row menu-pc-row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="logo d-flex align-items-center justify-content-center">
+                        franco
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">women</a></li>
+                            <li><a href="#">men</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">collections</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li>
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 d-flex justify-content-end align-items-center icon">
+                    <div class="cart">
+                        <a href="#"><i class="far fa-heart wish-list-icon"></i></a>
+                        <a href="#"><label for="cart_hidden_pc" class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- Menu mobile -->
+        <div class="menu-mobile">
+            <div class="menu-mobile-main">
+                <div class="row menu-mobile-main-row">
+                   
+
+                    <input type="checkbox" hidden class="nav_hidden_input" id="nav_hidden_mobile" />
+                    <label for="nav_hidden_mobile" class="overlay"></label>
+
+                    
+
+                    <div class="col-lg-4 col-4 menu-mobile-left d-flex align-items-center">
+                        <label for="nav_hidden_mobile" class="icon-nav-mobile"><i class="fas fa-bars icon-menu-mobile">
+                          </i></label>
+                        
+                    </div>
+                    <div class="col-lg-4 col-4 menu-mobile-logo logo d-flex align-items-center">
+                        franco
+                    </div>
+                    <div class="col-lg-4 col-4 menu-mobile-right d-flex align-items-center justify-content-end">
+                        <label for="search_hidden_mobile" class="icon-nav-mobile">
+                        <i class="fas fa-search icon-menu-mobile"></i></label>
+                        <i class="far fa-heart icon-menu-mobile"></i>
+                        <label for="cart_hidden_mobile" class="fas fa-shopping-cart icon-menu-mobile"></label>
+                        
+                    </div>
+
+                    <div class="nav_mobile">
+                        <div class="title-menu d-flex align-items-center">
+                            <h1 class="me-auto">menu</h1>
+                            
+                            <label for="nav_hidden_mobile" class="fas fa-times"></label>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">home</a>
+                            </li>
+                            <li>
+                                <a href="#">women</a>
+                            </li>
+                            <li>
+                                <a href="#">men </a>
+                            </li>
+                            <li>
+                                <a href="#">about us </a>
+                            </li>
+                            <li>
+                                <a href="#">blog </a>
+                            </li>
+                            <li>
+                                <a href="#">collections</a>
+                            </li>
+                            <li>
+                                <a href="#">contact </a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End main menu -->
+
+    <!-- Banner -->
+    
+    <div class="banner">
+        <div class="container">
+
+            <div class="list-banner">
+                <div class="main-banner">
+                    <img src="sourcecode/images/banner1.png" alt="" />
+                    <div class="main-banner-title text-end">
+                        <p>Two High-end Materials</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+                <div class="banner-right">
+                    <div class="banner-top">
+                        <img src="sourcecode/images/banner2.png" alt="" />
+                        <div class="banner-top-title">
+                            <p class="title-top">small thing</p>
+                            <p class="title-bottom">make different</p>
+                        </div>
+                    </div>
+                    <div class="banner-bottom">
+                        <img src="sourcecode/images/banner3.png" alt="" />
+                        <div class="banner-bottom-title">
+                            <p class="title-top">folio</p>
+                            <p class="title-bottom">backpack</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Featured items -->
+    <div class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="featured-items-title">
+                    <p>Franco</p>
+                    <div class="featured-items-title-big">
+                        <span>featured items</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-item row-pro-first">
+                <div class="row">
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured1.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Suspendisse id volutpat</a>
+                        <div class="rate">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="price"><del>$99.00 </del>$84.00</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured2.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="price"><del>$99.00 </del>$84.00</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured3.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Proin sed nulla mi</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="price">$84.00</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured4.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Aenean placerat</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star icon-start-end"></i>
+                        </div>
+                        <p class="price"><del>$99.00 </del>$84.00</p>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="product-item">
+                <div class="row mb-4">
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured5.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Suspendisse id volutpat</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="price"><del>$99.00 </del>$84.00</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured6.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Lorem ipsum dolor</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="price"><del>$99.00 </del>$84.00</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured7.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Proin sed nulla mi</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="price">$84.00</p>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-6 pro-item">
+                        <div class="product-image">
+                            <img src="sourcecode/images/featured8.png" alt="" />
+                            <div class="add-cart">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                        <a href="#">Aenean placerat</a>
+                        <div class="rate">
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star icon-start-end"></i>
+                        </div>
+                        <p class="price"><del>$99.00 </del>$84.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Featured items -->
+
+    <!-- Blogs -->
+    <div class="new-blogs">
+        <div class="container">
+            <div class="row">
+                <div class="new-blogs-title">
+                    <p>latest</p>
+                    <h1>news & Events</h1>
+                </div>
+            </div>
+            <div class="row slider-post">
+                <div class="slider">
+                    <div class="post">
+                        <div class="post-item">
+                            <div class="post-image">
+                                <img src="sourcecode/images/blog1.png" alt="" />
+                                <div class="date text-center text-center">
+                                    <p class="month">Jun</p>
+                                    <p class="day">12</p>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <a href="#" class="post-content-title">In commodo dolor vitae</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog2.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >Vivamus non dignissim elit</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog3.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >Ut lacinia erat ut diam volutpat</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog1.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >In commodo dolor vitae</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog2.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >Vivamus non dignissim elit</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog3.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >Ut lacinia erat ut diam volutpat</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog1.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >In commodo dolor vitae</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog2.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >Vivamus non dignissim elit</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <div class="post-item">
+                <div class="post-image">
+                  <img src="sourcecode/images/blog3.png" alt="" />
+                  <div class="date text-center text-center">
+                    <p class="month">Jun</p>
+                    <p class="day">12</p>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <a href="#" class="post-content-title"
+                    >Ut lacinia erat ut diam volutpat</a
+                  >
+                  <p class="post-content-main">
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                  </p>
+                </div>
+                <div class="post-rate d-flex">
+                  <p class="post-rate-commnent">
+                    <i class="far fa-comment"></i> 12
+                  </p>
+                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end blogs -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="row">
+            <div
+              class="col-xl-4 col-sm-12 col-12 col-footer footer-about"
+            >
+              <div class="about">
+                <div class="title">About Franco</div>
+                <div class="content">
+                  <p>
+                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris
+                    vulputate mi, eu interdum nunc diam at ipsum.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="social-media">
+                <a href="#"><i class="fab fa-twitter icon-social"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in icon-social"></i></a>
+                                <a href="#"><i class="fab fa-behance icon-social"></i></a>
+                                <a href="#"><i class="fab fa-dribbble icon-social"></i></a>
+                            </div>
+                        </div>
+                        <div class="
+                col-xl-4 col-sm-12 col-12 col-footer
+              ">
+                            <div class="navigation">
+                                <div class="title">Navigation</div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Our Blog</a></li>
+                                            <li><a href="#">Women</a></li>
+                                            <li><a href="#">Men</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 list-sevice">
+                                        <ul>
+                                            <li><a href="#">FAQs</a></li>
+                                            <li><a href="#">Featured Brands</a></li>
+                                            <li><a href="#">Gift Vouchers</a></li>
+                                            <li><a href="#">Affiliates</a></li>
+                                            <li><a href="#">Specials Gift </a></li>
+                                            <li><a href="#">Terms & Conditions</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="
+                  col-xl-4 col-sm-12 col-12 col-footer
+ 
+                ">
+                            <div class="location">
+                                <div class="title">Shop location</div>
+                                <div class="location-content">
+                                    <ul>
+                                        <li>
+                                            <i class="far fa-map"></i> 500 Hennessy Road Causeway Bay, Hong Kong
+                                        </li>
+                                        <li><i class="fas fa-phone-alt"></i> +1 23456789</li>
+                                        <li>
+                                            <i class="far fa-envelope"></i> contact@yourdomain.com
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-content">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-12 col-12 footer-bottom-left">
+                        © Copyright 2015 & Made with by <i class="fas fa-heart"></i>
+                        <a href="#" style="text-decoration: none;">ArrowHitech</a> .
+                    </div>
+                    <div class="col-xl-6 col-sm-12 col-12 footer-bottom-right">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-visa"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-paypal"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-mastercard"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-cc-discover"></i>
+                                </a>
+                            </li>
+                            <li><a href="#"><i class="fab fa-cc-amex"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="./resources/js/Plugin/wow.js"></script>
+    <script src="./resources/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="sourcecode/js/slick.js"></script>
+</body>
+
+</html>
