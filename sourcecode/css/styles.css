@@ -86,7 +86,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* Font */
+/* List Font */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -208,6 +208,7 @@ video {
   color: #000;
   cursor: pointer;
 }
+
 .cart a label:hover {
   color: #8262b5;
 }
