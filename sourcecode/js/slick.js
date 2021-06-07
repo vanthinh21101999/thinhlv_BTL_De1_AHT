@@ -1,7 +1,7 @@
 console.clear();
 
 $(".slider").slick({
-    // autoplay: true,
+    arrows: false,
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 3,
