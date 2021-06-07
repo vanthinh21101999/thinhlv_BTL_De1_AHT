@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
     <!--Less-->
-    <script src="./resources/js/less.js"></script>
+    <script src="./sourcecode/less/styles.less"></script>
    
 
 </head>
@@ -71,7 +71,7 @@
                 <div class="col-xl-3 col-lg-3 d-flex justify-content-end align-items-center icon">
                     <div class="cart">
                         <a href="#"><i class="far fa-heart wish-list-icon"></i></a>
-                        <a href="#"><label for="cart_hidden_pc" class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
                     </div>
                 </div>
                
@@ -98,10 +98,10 @@
                         franco
                     </div>
                     <div class="col-lg-4 col-4 menu-mobile-right d-flex align-items-center justify-content-end">
-                        <label for="search_hidden_mobile" class="icon-nav-mobile">
-                        <i class="fas fa-search icon-menu-mobile"></i></label>
+                        
+                        <i class="fas fa-search icon-menu-mobile"></i>
                         <i class="far fa-heart icon-menu-mobile"></i>
-                        <label for="cart_hidden_mobile" class="fas fa-shopping-cart icon-menu-mobile"></label>
+                        <i class="fas fa-shopping-cart icon-menu-mobile"></i>
                         
                     </div>
 
@@ -363,232 +363,217 @@
                                 </div>
                             </div>
                             <div class="post-content">
-                                <a href="#" class="post-content-title">In commodo dolor vitae</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
+                                <a href="#" class="post-content-title">In commodo dolor vitae</a>
+                                <p class="post-content-main">
+                                  Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                                  vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            <div class="post-rate d-flex">
+                              <p class="post-rate-commnent">
+                                <i class="far fa-comment"></i> 12
+                              </p>
+                              <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog2.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">Vivamus non dignissim elit</a>
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog3.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">Ut lacinia erat ut diam volutpat</a>
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog1.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">In commodo dolor vitae</a
+                            >
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog2.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">Vivamus non dignissim elit</a>
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog3.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">Ut lacinia erat ut diam volutpat</a
+                            >
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog1.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">In commodo dolor vitae</a>
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post">
+                        <div class="post-item">
+                          <div class="post-image">
+                            <img src="sourcecode/images/blog2.png" alt="" />
+                            <div class="date text-center text-center">
+                              <p class="month">Jun</p>
+                              <p class="day">12</p>
+                            </div>
+                          </div>
+                          <div class="post-content">
+                            <a href="#" class="post-content-title">Vivamus non dignissim elit</a>
+                            <p class="post-content-main">
+                              Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                              vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                            </p>
+                          </div>
+                          <div class="post-rate d-flex">
+                            <p class="post-rate-commnent">
+                              <i class="far fa-comment"></i> 12
+                            </p>
+                            <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="post">
+                      <div class="post-item">
+                        <div class="post-image">
+                          <img src="sourcecode/images/blog3.png" alt="" />
+                          <div class="date text-center text-center">
+                            <p class="month">Jun</p>
+                            <p class="day">12</p>
+                          </div>
+                        </div>
+                        <div class="post-content">
+                          <a href="#" class="post-content-title">Ut lacinia erat ut diam volutpat</a>
+                          <p class="post-content-main">
+                            Aliquam tempor sagittis neque, vel aliquam risus consectetur
+                            vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
+                          </p>
+                        </div>
+                        <div class="post-rate d-flex">
+                          <p class="post-rate-commnent">
+                            <i class="far fa-comment"></i> 12
+                          </p>
+                          <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
+                        </div>
+                      </div>
+                    </div>
               </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog2.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >Vivamus non dignissim elit</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog3.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >Ut lacinia erat ut diam volutpat</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog1.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >In commodo dolor vitae</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog2.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >Vivamus non dignissim elit</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog3.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >Ut lacinia erat ut diam volutpat</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog1.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >In commodo dolor vitae</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog2.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >Vivamus non dignissim elit</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
-            <div class="post">
-              <div class="post-item">
-                <div class="post-image">
-                  <img src="sourcecode/images/blog3.png" alt="" />
-                  <div class="date text-center text-center">
-                    <p class="month">Jun</p>
-                    <p class="day">12</p>
-                  </div>
-                </div>
-                <div class="post-content">
-                  <a href="#" class="post-content-title"
-                    >Ut lacinia erat ut diam volutpat</a
-                  >
-                  <p class="post-content-main">
-                    Aliquam tempor sagittis neque, vel aliquam risus consectetur
-                    vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.
-                  </p>
-                </div>
-                <div class="post-rate d-flex">
-                  <p class="post-rate-commnent">
-                    <i class="far fa-comment"></i> 12
-                  </p>
-                  <p class="post-rate-heart"><i class="far fa-heart"></i> 6</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-      </div>
     </div>
     <!-- end blogs -->
 
@@ -670,8 +655,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+      </div>
+  
     <div class="footer-bottom">
         <div class="container">
             <div class="footer-bottom-content">
@@ -711,11 +696,10 @@
     </div>
     <!-- End Footer -->
 
-    <script src="./resources/js/Plugin/wow.js"></script>
-    <script src="./resources/js/main.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="sourcecode/js/slick.js"></script>
+    <script src="./sourcecode/js/slick.js"></script>
 </body>
 
 </html>
