@@ -172,7 +172,7 @@ footer,header,menu,nav,section {
 }
 .main-banner-title a:hover {
   color: #fff;
-  background-color: #000;
+  background-color: #f33c3c;
 }
 .banner-top {
   position: relative;
@@ -237,10 +237,10 @@ footer,header,menu,nav,section {
 }
 .banner-bottom-title a:hover {
   color: #fff;
-  background-color: #000;
+  background-color: #f33c3c;
 }
 .menu-center {
-  padding-left: 0px;
+  padding-left: 0;
 }
 /* Featured items */
 .featured-items {
@@ -685,7 +685,7 @@ footer,header,menu,nav,section {
   width: 100%;
   border: none;
   outline: none;
-  padding: 0px 20px 0px 50px;
+  padding: 0 20px 0 50px;
   height: 60px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -718,7 +718,7 @@ footer,header,menu,nav,section {
   height: 47px;
   background-color: #f3f3f3;
   border-bottom: 1px solid #e6e6e6;
-  margin: 0px;
+  margin: 0;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -742,7 +742,7 @@ footer,header,menu,nav,section {
   text-decoration: none;
 }
 .cart_pc {
-  padding: 0px;
+  padding: 0;
   transform: translateX(100%);
   display: block;
   position: fixed;
@@ -788,7 +788,7 @@ footer,header,menu,nav,section {
   height: 47px;
   background-color: #f3f3f3;
   border-bottom: 1px solid #e6e6e6;
-  margin: 0px;
+  margin: 0;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -891,7 +891,7 @@ footer,header,menu,nav,section {
     display: none;
   }
   .list-banner {
-    margin-left: 0px;
+    margin-left: 0;
   }
   .product-item {
     padding-left: 0;
@@ -982,26 +982,30 @@ footer,header,menu,nav,section {
   }
   .icon-menu-mobile {
     font-size: 30px;
-    margin: 0px 10px;
+    margin: 0 ;
+  }
+  .icon-menu-mobile-right {
+    margin: 0 12px;
+    font-size: 30px;
   }
   .slick-next {
-    right: 0px;
+    right: 0;
   }
   .post-item {
     width: 100%;
   }
   .slider {
-    margin-left: 0px;
+    margin-left: 0;
     width: 100%;
   }
   .footer-bottom-content {
-    padding: 0px;
+    padding: 0;
   }
   .footer-bottom-right {
     margin-top: 20px;
   }
   .footer {
-    padding: 60px 0px 30px;
+    padding: 60px 0 30px;
   }
   .new-blogs-title h1::after {
     margin-left: 45%;
@@ -1069,23 +1073,26 @@ footer,header,menu,nav,section {
     font-size: 12px;
   }
   .icon-menu-mobile {
-    margin: 0px 5px;
+    margin: 0 ;
+  }
+  .icon-menu-mobile-right {
+    margin: 0 4px;
   }
   .slider-post {
-    margin-right: 0px;
+    margin-right: 0;
   }
   .post-item {
     width: 100%;
   }
   .post {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .footer-bottom-right {
     text-align: center;
     margin-top: 20px;
   }
   .footer {
-    padding: 60px 0px 30px;
+    padding: 60px 0 30px;
   }
   .new-blogs-title h1::after {
     margin-left: 45%;
@@ -1102,23 +1109,26 @@ footer,header,menu,nav,section {
     height: 30px;
     font-size: 12px;
     line-height: 2px;
-    margin: 0px 6px;
+    margin: 0 6px;
   }
   .post {
-    padding-left: 0px;
+    padding-left: 0;
   }
   .slider-post {
-    margin-right: 0px;
+    margin-right: 0;
   }
   .post-item {
     width: 100%;
   }
   .menu {
     height: 70px;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 0 20px 20px;
   }
   .icon-menu-mobile {
-    margin: 0px 5px;
+    margin: 0;
+  }
+  .icon-menu-mobile-right {
+    margin: 0 4px;
   }
   .footer-bottom-left {
     font-size: 14px;
@@ -1142,7 +1152,7 @@ footer,header,menu,nav,section {
     left: 35px;
   }
   .footer {
-    padding: 60px 0px 30px;
+    padding: 60px 0 30px;
   }
   .new-blogs-title h1::after {
     margin-left: 45%;
@@ -1184,7 +1194,7 @@ footer,header,menu,nav,section {
 }
 @media (min-width: 1200px) and (max-width: 1825px) {
   .main-menu ul li {
-    margin: 0px 13px;
+    margin: 0 13px;
   }
   .main-menu ul li a {
     font-size: 0.8vw;
