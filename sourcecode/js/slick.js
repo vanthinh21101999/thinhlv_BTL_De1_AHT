@@ -1,5 +1,4 @@
 console.clear();
-
 $(".slider").slick({
     arrows: false,
     dots: true,
@@ -33,3 +32,4 @@ $(".slider").slick({
 
     ]
 });
+$('.slider').slick("refresh");

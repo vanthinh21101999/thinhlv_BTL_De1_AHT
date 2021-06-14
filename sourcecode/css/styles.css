@@ -984,6 +984,12 @@ footer,header,menu,nav,section {
     font-size: 30px;
     margin: 0 ;
   }
+  .menu-mobile-right a {
+    color: #000;
+  }
+  .menu-mobile-right a:hover{
+    color: #8262b5;
+  }
   .icon-menu-mobile-right {
     margin: 0 12px;
     font-size: 30px;
@@ -1075,6 +1081,12 @@ footer,header,menu,nav,section {
   .icon-menu-mobile {
     margin: 0 ;
   }
+  .menu-mobile-right a {
+    color: #000;
+  }
+  .menu-mobile-right a:hover{
+    color: #8262b5;
+  }
   .icon-menu-mobile-right {
     margin: 0 4px;
   }
@@ -1129,6 +1141,12 @@ footer,header,menu,nav,section {
   }
   .icon-menu-mobile-right {
     margin: 0 4px;
+  }
+  .menu-mobile-right a {
+    color: #000;
+  }
+  .menu-mobile-right a:hover{
+    color: #8262b5;
   }
   .footer-bottom-left {
     font-size: 14px;
