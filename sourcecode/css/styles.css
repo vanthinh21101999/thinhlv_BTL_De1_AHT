@@ -485,6 +485,9 @@ footer,header,menu,nav,section {
   margin-right: 30px;
   font-size: 15px;
 }
+.footer-about .social-media a .icon-social:hover {
+  color: #f7f7f7;
+}
 .navigation .title {
   width: 360px;
 }
@@ -511,10 +514,19 @@ footer,header,menu,nav,section {
 .location .location-content {
   width: 260px;
 }
+.location .location-content ul i {
+  left: -30px;
+  font-size: 14px;
+  color: #6e6e6e;
+  line-height: 30px;
+  position: absolute;
+}
 .location .location-content ul li {
+  position: relative;
+  margin-left: 30px;
   list-style: none;
   margin-bottom: 5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #6e6e6e;
   line-height: 30px;
@@ -522,9 +534,6 @@ footer,header,menu,nav,section {
 .location .location-content ul li a {
   text-decoration: none;
   color: #6e6e6e;
-}
-.location .location-content ul li a span{
-  margin-left: 30px;
 }
 .location .location-content ul li a:hover {
   color: #f7f7f7;
@@ -573,7 +582,7 @@ footer,header,menu,nav,section {
 .footer-bottom-right ul li a i {
   font-size: 20px;
   color: #6e6e6e;
-}
+}zzz
 /*mobile*/
 .overlay {
   position: fixed;
@@ -1134,7 +1143,7 @@ footer,header,menu,nav,section {
   }
   .menu {
     height: 70px;
-    padding: 20px 0 20px 20px;
+    padding: 20px 0 20px 15px;
   }
   .icon-menu-mobile {
     margin: 0;
